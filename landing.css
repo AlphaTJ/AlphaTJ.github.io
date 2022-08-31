@@ -1,0 +1,42 @@
+
+h1{
+	width: 400px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin: 30px;
+	border-radius: 40px;
+	font-size: 3em;
+}
+
+h1:hover{
+	color: blue;
+}
+nav{
+
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+
+}
+
+a{
+	text-decoration: none;
+	color: orange;
+	cursor: progress;
+	margin: 20px;
+	font-size: 2em;
+
+
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	transition: all 1.4s;
+	margin: 20px;
+}
+img:hover{
+	transform: scale(1.2);
+	
+}
+
